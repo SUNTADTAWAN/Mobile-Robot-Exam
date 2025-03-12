@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e77fd5a8ce35a6280bf5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fra532_slam",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fra532_slam_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fra532_slam_egg-063e78a689e5e9ce11d1.json",
+					"name" : "ament_cmake_python_build_fra532_slam_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fra532_slam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fra532_slam-00b33fabf3f7aa61878e.json",
+					"name" : "ament_cmake_python_copy_fra532_slam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_node_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_node_test-c48275089d83b58eba28.json",
+					"name" : "cpp_node_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fra532_slam_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fra532_slam_uninstall-ffe9ab6ce56cedc8aa62.json",
+					"name" : "fra532_slam_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ed0e05e003375d0097db.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tadtawan/fra532_lecture5_ws/build/fra532_slam",
+		"source" : "/home/tadtawan/fra532_lecture5_ws/src/fra532_slam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

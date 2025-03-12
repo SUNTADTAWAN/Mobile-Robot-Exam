@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'fra532_exam1'}
+[0.000265] (-) JobUnselected: {'identifier': 'fra532_gazebo'}
+[0.000277] (-) JobUnselected: {'identifier': 'fra532_nav'}
+[0.000292] (-) JobUnselected: {'identifier': 'fra532_slam'}
+[0.000301] (-) JobUnselected: {'identifier': 'ira_laser_tools'}
+[0.000309] (-) JobUnselected: {'identifier': 'mir_description'}
+[0.000318] (-) JobUnselected: {'identifier': 'mir_driver'}
+[0.000327] (-) JobUnselected: {'identifier': 'mir_gazebo'}
+[0.000335] (-) JobUnselected: {'identifier': 'mir_msgs'}
+[0.000343] (-) JobUnselected: {'identifier': 'mir_navigation'}
+[0.000352] (-) JobUnselected: {'identifier': 'mir_restapi'}
+[0.000360] (-) JobUnselected: {'identifier': 'mir_robot'}
+[0.000368] (-) JobUnselected: {'identifier': 'twist_stamper'}
+[0.000489] (-) EventReactorShutdown: {}

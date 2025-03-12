@@ -1,0 +1,7 @@
+setup.py
+fra532_gazebo/__init__.py
+fra532_gazebo/dummy_module.py
+fra532_gazebo.egg-info/PKG-INFO
+fra532_gazebo.egg-info/SOURCES.txt
+fra532_gazebo.egg-info/dependency_links.txt
+fra532_gazebo.egg-info/top_level.txt

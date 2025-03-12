@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mir_msgs__py",
+		"source" : "/home/tadtawan/fra532_lecture5_ws/build/mir_msgs/mir_msgs__py"
+	}
+}

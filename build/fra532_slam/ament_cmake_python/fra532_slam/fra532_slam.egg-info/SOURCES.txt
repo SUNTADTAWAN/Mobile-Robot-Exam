@@ -1,0 +1,7 @@
+setup.py
+fra532_slam/__init__.py
+fra532_slam/dummy_module.py
+fra532_slam.egg-info/PKG-INFO
+fra532_slam.egg-info/SOURCES.txt
+fra532_slam.egg-info/dependency_links.txt
+fra532_slam.egg-info/top_level.txt

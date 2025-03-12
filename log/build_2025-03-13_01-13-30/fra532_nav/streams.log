@@ -1,0 +1,55 @@
+[0.197s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_nav -- -j16 -l16
+[0.232s] [100%] Built target cpp_node_test
+[0.235s] [100%] Built target ament_cmake_python_copy_fra532_nav
+[0.425s] running egg_info
+[0.425s] writing fra532_nav.egg-info/PKG-INFO
+[0.425s] writing dependency_links to fra532_nav.egg-info/dependency_links.txt
+[0.425s] writing top-level names to fra532_nav.egg-info/top_level.txt
+[0.425s] reading manifest file 'fra532_nav.egg-info/SOURCES.txt'
+[0.425s] writing manifest file 'fra532_nav.egg-info/SOURCES.txt'
+[0.445s] [100%] Built target ament_cmake_python_build_fra532_nav_egg
+[0.475s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_nav -- -j16 -l16
+[0.476s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_nav
+[0.484s] -- Install configuration: ""
+[0.484s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/environment/pythonpath.sh
+[0.484s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/environment/pythonpath.dsv
+[0.484s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav-0.0.0-py3.10.egg-info
+[0.484s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav-0.0.0-py3.10.egg-info/top_level.txt
+[0.484s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.484s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.484s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav-0.0.0-py3.10.egg-info/PKG-INFO
+[0.484s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav
+[0.485s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav/__init__.py
+[0.485s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav/dummy_module.py
+[0.508s] Listing '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages/fra532_nav'...
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib/fra532_nav/dummy_script.py
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib/fra532_nav/cpp_node_test
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/launch
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/launch/navigation.launch.py
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/maps
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/maps/map-nav.png
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/maps/map.pgm
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/maps/map.yaml
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/maps/map_nav.yaml
+[0.511s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/maps/map.png
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/maps/map_nav.pgm
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/params
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/params/basic_params.yaml
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/rviz
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/rviz/navigation.rviz
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/ament_index/resource_index/package_run_dependencies/fra532_nav
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/ament_index/resource_index/parent_prefix_path/fra532_nav
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/environment/ament_prefix_path.sh
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/environment/ament_prefix_path.dsv
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/environment/path.sh
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/environment/path.dsv
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/local_setup.bash
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/local_setup.sh
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/local_setup.zsh
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/local_setup.dsv
+[0.512s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.dsv
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/ament_index/resource_index/packages/fra532_nav
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/cmake/fra532_navConfig.cmake
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/cmake/fra532_navConfig-version.cmake
+[0.512s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.xml
+[0.534s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_nav

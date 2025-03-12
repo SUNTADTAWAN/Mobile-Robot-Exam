@@ -1,0 +1,169 @@
+[0.027s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake /home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_description -DCMAKE_INSTALL_PREFIX=/home/tadtawan/fra532_lecture5_ws/install/mir_description
+[0.214s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.215s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.431s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.432s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.458s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.464s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.551s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.552s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.552s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.591s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.595s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.664s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.685s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.736s] -- Looking for pthread.h
+[0.799s] -- Looking for pthread.h - found
+[0.799s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.855s] -- Found Threads: TRUE  
+[1.049s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.059s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.060s] -- Checking for module 'bullet>=2.82'
+[1.072s] --   Found bullet, version 3.05
+[1.145s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.185s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.200s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.220s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.232s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.237s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.240s] -- Searching for dependencies of ignition-math6
+[1.241s] -- Looking for OGRE...
+[1.242s] -- OGRE_PREFIX_WATCH changed.
+[1.246s] -- Checking for module 'OGRE'
+[1.255s] --   Found OGRE, version 1.9.0
+[1.276s] -- Found Ogre Ghadamon (1.9.0)
+[1.285s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.292s] -- Looking for OGRE_Paging...
+[1.300s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.300s] -- Looking for OGRE_Terrain...
+[1.305s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.305s] -- Looking for OGRE_Property...
+[1.309s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.310s] -- Looking for OGRE_RTShaderSystem...
+[1.314s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.314s] -- Looking for OGRE_Volume...
+[1.319s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.319s] -- Looking for OGRE_Overlay...
+[1.323s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.457s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.458s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.458s] -- Searching for dependencies of ignition-transport8
+[1.478s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.494s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.501s] -- Checking for module 'libzmq >= 4'
+[1.519s] --   Found libzmq , version 4.3.4
+[1.556s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.563s] -- Checking for module 'uuid'
+[1.579s] --   Found uuid, version 2.37.2
+[1.615s] -- Found UUID: TRUE  
+[1.617s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.619s] -- Searching for dependencies of ignition-msgs5
+[1.639s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.646s] -- Checking for module 'tinyxml2'
+[1.663s] --   Found tinyxml2, version 9.0.0
+[1.691s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.693s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.693s] -- Searching for dependencies of ignition-common3
+[1.694s] -- Looking for dlfcn.h - found
+[1.694s] -- Looking for libdl - found
+[1.696s] -- Found DL: TRUE  
+[1.709s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.709s] -- Searching for <ignition-common3> component [graphics]
+[1.711s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.711s] -- Searching for dependencies of ignition-common3-graphics
+[1.711s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.714s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.714s] -- Searching for dependencies of ignition-fuel_tools4
+[1.781s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.790s] -- Checking for module 'jsoncpp'
+[1.803s] --   Found jsoncpp, version 1.9.5
+[1.829s] -- Found JSONCPP: TRUE  
+[1.835s] -- Checking for module 'libzip'
+[1.846s] --   Found libzip, version 1.7.3
+[1.867s] -- Found ZIP: TRUE  
+[1.867s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.868s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.868s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.870s] -- Gazebo version: 11.10
+[1.871s] -- Checking for module 'tbb'
+[1.880s] --   Found tbb, version 2021.5.0
+[1.903s] -- Found rviz2: 11.2.16 (/opt/ros/humble/share/rviz2/cmake)
+[1.908s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.977s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.978s] -- Added test 'lint_cmake' to check CMake code style
+[1.978s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.980s] -- Added test 'xmllint' to check XML markup files
+[1.981s] -- Configuring done
+[1.985s] -- Generating done
+[1.988s] -- Build files have been written to: /home/tadtawan/fra532_lecture5_ws/build/mir_description
+[2.001s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake /home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_description -DCMAKE_INSTALL_PREFIX=/home/tadtawan/fra532_lecture5_ws/install/mir_description
+[2.003s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_description -- -j16 -l16
+[2.040s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_description -- -j16 -l16
+[2.042s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_description
+[2.048s] -- Install configuration: ""
+[2.048s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf
+[2.048s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/mir_100_cam.urdf.xacro
+[2.048s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include
+[2.048s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/wheel.urdf.xacro
+[2.048s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/imu.gazebo.urdf.xacro
+[2.048s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/common_properties.urdf.xacro
+[2.048s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/mir_100_v1.urdf.xacro
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/common.gazebo.xacro
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/mir_100.gazebo.xacro
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/caster.urdf.xacro
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/sick_s300.urdf.xacro
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/mir_100.transmission.xacro
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/mir.urdf.xacro
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz/mir_visualization.rviz
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz/mir_description.rviz
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz/mir_visu_full.rviz
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/caster_wheel_base.stl
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/wheel.stl
+[2.049s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/sick_lms-100.stl
+[2.050s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/mir_100_base.stl
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/collision
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/collision/caster_wheel_base.stl
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/collision/mir_100_base.stl
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/config
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/config/diffdrive_controller.yaml
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/config/joint_state_controller.yaml
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/launch
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/launch/mir_display_launch.py
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/launch/mir_launch.py
+[2.051s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/ament_index/resource_index/package_run_dependencies/mir_description
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/ament_index/resource_index/parent_prefix_path/mir_description
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/ament_prefix_path.sh
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/ament_prefix_path.dsv
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/path.sh
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/path.dsv
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.bash
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.sh
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.zsh
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.dsv
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.dsv
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/ament_index/resource_index/packages/mir_description
+[2.052s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/cmake/mir_descriptionConfig.cmake
+[2.053s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/cmake/mir_descriptionConfig-version.cmake
+[2.053s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.xml
+[2.055s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_description

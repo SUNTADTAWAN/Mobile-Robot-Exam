@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools -- -j16 -l16
+[0.221s] [ 50%] Built target CloudPile
+[0.221s] [100%] Built target laserscan_multi_merger
+[0.413s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools -- -j16 -l16
+[0.414s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools
+[0.425s] -- Install configuration: ""
+[0.426s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/include/
+[0.427s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/include//ira_laser_tools
+[0.427s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/include//ira_laser_tools/laserscan_multi_merger.hpp
+[0.427s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/include//ira_laser_tools/CloudPile.hpp
+[0.427s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/launch
+[0.427s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_virtualizer.launch
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_multi_merger.launch
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_virtualizer_launch.py
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_multi_merger_launch.py
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib/ira_laser_tools/laserscan_multi_merger
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib/ira_laser_tools/libCloudPile.a
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ament_index/resource_index/package_run_dependencies/ira_laser_tools
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ament_index/resource_index/parent_prefix_path/ira_laser_tools
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/environment/ament_prefix_path.sh
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/environment/ament_prefix_path.dsv
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/environment/path.sh
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/environment/path.dsv
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/local_setup.bash
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/local_setup.sh
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/local_setup.zsh
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/local_setup.dsv
+[0.429s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.dsv
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ament_index/resource_index/packages/ira_laser_tools
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig.cmake
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig-version.cmake
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.xml
+[0.461s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools

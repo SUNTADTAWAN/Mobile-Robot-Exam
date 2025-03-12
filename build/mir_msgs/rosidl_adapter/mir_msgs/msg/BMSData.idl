@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_msgs/msg/BMSData.msg
+// generated code does not contain a copyright notice
+
+
+module mir_msgs {
+  module msg {
+    module BMSData_Constants {
+      const int32 DISCHARGING = 1;
+      const int32 CHARGING = 2;
+    };
+    struct BMSData {
+      double pack_voltage;
+
+      double charge_current;
+
+      double discharge_current;
+
+      int32 state_of_charge;
+
+      double remaining_time_to_full_charge;
+
+      int32 remaining_capacity;
+
+      int32 state_of_health;
+
+      int32 status_flags;
+
+      int32 temperature;
+
+      @verbatim (language="comment", text=
+        "In Mk2 robots and above the BMS provides data for 8 battery cells. MiR500 robots have BMS for 13 battery cells")
+      sequence<uint32> cell_voltage;
+
+      double last_battery_msg_time;
+    };
+  };
+};

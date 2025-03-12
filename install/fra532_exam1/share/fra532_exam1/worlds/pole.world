@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="pole">
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Sun light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Pole at the center of the world -->
+    <model name="pole">
+      <static>true</static>
+      <link name="pole_link">
+        <visual name="pole_visual">
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>  <!-- Pole radius -->
+              <length>2.0</length>  <!-- Pole height -->
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+        <collision name="pole_collision">
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>2.0</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+      <pose>0 0 1 0 0 0</pose>
+    </model>
+
+    <!-- Aruco Markers (Now Fixed and Properly Attached) -->
+    <!-- Front (Facing X+) -->
+    <model name="aruco_marker_front">
+      <pose>0.12 0 0.4 -1.57 0 -1.57</pose>  <!-- 12cm in front of the pole -->
+      <include>
+        <uri>model://aruco_visual_marker_0</uri>
+      </include>
+    </model>
+
+    <!-- Back (Facing X-) -->
+    <model name="aruco_marker_back">
+      <pose>-0.12 0 0.4 1.57 0 -1.57</pose>  <!-- 12cm behind the pole -->
+      <include>
+        <uri>model://aruco_visual_marker_1</uri>
+      </include>
+    </model>
+
+    <!-- Left (Facing Y+) -->
+    <model name="aruco_marker_left">
+      <pose>0 0.12 0.4 -1.57 0 0</pose>  <!-- 12cm to the left of the pole -->
+      <include>
+        <uri>model://aruco_visual_marker_2</uri>
+      </include>
+    </model>
+
+    <!-- Right (Facing Y-) -->
+    <model name="aruco_marker_right">
+      <pose>0 -0.12 0.4 -1.57 0 3.14</pose>  <!-- 12cm to the right of the pole -->
+      <include>
+        <uri>model://aruco_visual_marker_3</uri>
+      </include>
+    </model>
+
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+    <ros>
+    <namespace>/gazebo</namespace>
+    <argument>use_sim_time</argument>
+    </ros>
+</plugin>
+
+
+  </world>
+</sdf>

@@ -1,0 +1,46 @@
+[0.801s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_restapi build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log --single-version-externally-managed install_data
+[0.994s] running egg_info
+[0.995s] creating ../../../build/mir_restapi/mir_restapi.egg-info
+[0.995s] writing ../../../build/mir_restapi/mir_restapi.egg-info/PKG-INFO
+[0.995s] writing dependency_links to ../../../build/mir_restapi/mir_restapi.egg-info/dependency_links.txt
+[0.995s] writing entry points to ../../../build/mir_restapi/mir_restapi.egg-info/entry_points.txt
+[0.995s] writing requirements to ../../../build/mir_restapi/mir_restapi.egg-info/requires.txt
+[0.995s] writing top-level names to ../../../build/mir_restapi/mir_restapi.egg-info/top_level.txt
+[0.995s] writing manifest file '../../../build/mir_restapi/mir_restapi.egg-info/SOURCES.txt'
+[0.997s] reading manifest file '../../../build/mir_restapi/mir_restapi.egg-info/SOURCES.txt'
+[0.997s] adding license file 'LICENSE'
+[0.997s] writing manifest file '../../../build/mir_restapi/mir_restapi.egg-info/SOURCES.txt'
+[1.001s] running build
+[1.001s] running build_py
+[1.001s] creating /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build
+[1.001s] creating /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib
+[1.001s] creating /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi
+[1.001s] copying mir_restapi/mir_restapi_lib.py -> /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi
+[1.001s] copying mir_restapi/mir_restapi_sync_time.py -> /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi
+[1.001s] copying mir_restapi/mir_restapi_server.py -> /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi
+[1.001s] copying mir_restapi/__init__.py -> /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi
+[1.001s] running install
+[1.001s] running install_lib
+[1.001s] creating /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi
+[1.002s] copying /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi/mir_restapi_lib.py -> /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi
+[1.002s] copying /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi/mir_restapi_sync_time.py -> /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi
+[1.002s] copying /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi/mir_restapi_server.py -> /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi
+[1.002s] copying /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build/lib/mir_restapi/__init__.py -> /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi
+[1.002s] byte-compiling /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi/mir_restapi_lib.py to mir_restapi_lib.cpython-310.pyc
+[1.005s] byte-compiling /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi/mir_restapi_sync_time.py to mir_restapi_sync_time.cpython-310.pyc
+[1.005s] byte-compiling /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi/mir_restapi_server.py to mir_restapi_server.cpython-310.pyc
+[1.006s] byte-compiling /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi/__init__.py to __init__.cpython-310.pyc
+[1.006s] running install_data
+[1.006s] creating /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/ament_index
+[1.007s] creating /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/ament_index/resource_index
+[1.007s] creating /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/ament_index/resource_index/packages
+[1.007s] copying resource/mir_restapi -> /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/ament_index/resource_index/packages
+[1.007s] copying package.xml -> /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi
+[1.007s] creating /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/launch
+[1.007s] running install_egg_info
+[1.009s] Copying ../../../build/mir_restapi/mir_restapi.egg-info to /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi-0.0.0-py3.10.egg-info
+[1.009s] running install_scripts
+[1.026s] Installing mir_restapi_server script to /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/mir_restapi
+[1.026s] Installing mir_restapi_sync_time script to /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/mir_restapi
+[1.026s] writing list of installed files to '/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log'
+[1.048s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi' returned '0': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_restapi build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log --single-version-externally-managed install_data

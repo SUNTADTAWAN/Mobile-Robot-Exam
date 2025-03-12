@@ -1,0 +1,6 @@
+[console_scripts]
+fake_mir_joint_publisher = mir_driver.fake_mir_joint_publisher:main
+mir_bridge = mir_driver.mir_bridge:main
+tf_remove_child_frames = mir_driver.tf_remove_child_frames:main
+time_synchronizer = mir_driver.time_synchronizer:main
+

@@ -1,0 +1,916 @@
+[0.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74e48fc57af0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74e48fc57640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74e48fc57640>>, mixin_verb=('build',))
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.171s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tadtawan/fra532_lecture5_ws'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_exam1) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fra532_exam1' with type 'ros.ament_cmake' and name 'fra532_exam1'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_gazebo) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fra532_gazebo' with type 'ros.ament_cmake' and name 'fra532_gazebo'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_nav) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fra532_nav' with type 'ros.ament_cmake' and name 'fra532_nav'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra532_slam) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fra532_slam' with type 'ros.ament_cmake' and name 'fra532_slam'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ira_laser_tools/src/ira_laser_tools) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ira_laser_tools/src/ira_laser_tools' with type 'ros.ament_cmake' and name 'ira_laser_tools'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/doc) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/doc) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_description) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mir_robot/mir_description' with type 'ros.ament_cmake' and name 'mir_description'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_driver) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mir_robot/mir_driver' with type 'ros.ament_python' and name 'mir_driver'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_gazebo) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mir_robot/mir_gazebo' with type 'ros.ament_cmake' and name 'mir_gazebo'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_msgs) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mir_robot/mir_msgs' with type 'ros.ament_cmake' and name 'mir_msgs'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_navigation) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mir_robot/mir_navigation' with type 'ros.ament_cmake' and name 'mir_navigation'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_restapi) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mir_robot/mir_restapi' with type 'ros.ament_python' and name 'mir_restapi'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/mir_robot/mir_robot) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mir_robot/mir_robot' with type 'ros.ament_cmake' and name 'mir_robot'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/twist_stamper) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/twist_stamper' with type 'ros.ament_python' and name 'twist_stamper'
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.216s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/tadtawan/fra532_lecture5_ws/install/package_name' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.217s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/tadtawan/fra532_lecture5_ws/install/package_name' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/tadtawan/fra532_lecture5_ws/install
+[0.218s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tadtawan/install
+[0.218s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tadtawan/aws-robomaker-small-warehouse-world/install
+[0.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 382 installed packages in /opt/ros/humble
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'fra532_exam1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'fra532_exam1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/fra532_exam1', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'fra532_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/fra532_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'fra532_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/fra532_nav', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'fra532_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'fra532_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/fra532_slam', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'ira_laser_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/ira_laser_tools/src/ira_laser_tools', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'mir_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/mir_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/mir_description', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_description', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'mir_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_restapi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'mir_restapi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/mir_restapi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'twist_stamper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'twist_stamper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/twist_stamper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/twist_stamper', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'mir_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/mir_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/mir_driver', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_driver', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'mir_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/mir_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'mir_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/mir_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'mir_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tadtawan/fra532_lecture5_ws/build/mir_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tadtawan/fra532_lecture5_ws/install/mir_robot', 'merge_install': False, 'path': '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_robot', 'symlink_install': False, 'test_result_base': None}
+[0.254s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/ira_laser_tools/src/ira_laser_tools' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/ira_laser_tools/src/ira_laser_tools'
+[0.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_description' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_description'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_msgs' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_msgs'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/twist_stamper' with build type 'ament_python'
+[0.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_stamper', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/hook/ament_prefix_path.sh'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_exam1' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_exam1'
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_gazebo' with build type 'ament_cmake'
+[0.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_gazebo'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_nav' with build type 'ament_cmake'
+[0.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_nav'
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_slam' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/fra532_slam'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi' with build type 'ament_python'
+[0.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_restapi', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/hook/ament_prefix_path.ps1'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/hook/ament_prefix_path.dsv'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/hook/ament_prefix_path.sh'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools -- -j16 -l16
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_description -- -j16 -l16
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_msgs -- -j16 -l16
+[0.470s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tadtawan/fra532_lecture5_ws/src/twist_stamper'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1 -- -j16 -l16
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo -- -j16 -l16
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_nav -- -j16 -l16
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_slam -- -j16 -l16
+[0.662s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi'
+[0.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_description -- -j16 -l16
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_description
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools -- -j16 -l16
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_msgs -- -j16 -l16
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_msgs
+[0.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_description)
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_description
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description' for CMake module files
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description' for CMake config files
+[0.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_description', 'cmake_prefix_path')
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/hook/cmake_prefix_path.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/hook/cmake_prefix_path.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/hook/cmake_prefix_path.sh'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/bin'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/lib/pkgconfig/mir_description.pc'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/lib/python3.10/site-packages'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/bin'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.sh'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.bash'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.zsh'
+[0.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/colcon-core/packages/mir_description)
+[0.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_description)
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description' for CMake module files
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description' for CMake config files
+[0.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_description', 'cmake_prefix_path')
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/hook/cmake_prefix_path.ps1'
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/hook/cmake_prefix_path.dsv'
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/hook/cmake_prefix_path.sh'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/bin'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/lib/pkgconfig/mir_description.pc'
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/lib/python3.10/site-packages'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_description/bin'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.sh'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.bash'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.zsh'
+[0.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/colcon-core/packages/mir_description)
+[0.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ira_laser_tools)
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools' for CMake module files
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools' for CMake config files
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('ira_laser_tools', 'cmake_prefix_path')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.dsv'
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/bin'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib/pkgconfig/ira_laser_tools.pc'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib/python3.10/site-packages'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/bin'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.sh'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.bash'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.zsh'
+[0.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/colcon-core/packages/ira_laser_tools)
+[0.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ira_laser_tools)
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools' for CMake module files
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('ira_laser_tools', 'cmake_prefix_path')
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.ps1'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.sh'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/bin'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib/pkgconfig/ira_laser_tools.pc'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/lib/python3.10/site-packages'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/bin'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.sh'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.bash'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/ira_laser_tools/package.zsh'
+[0.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools/share/colcon-core/packages/ira_laser_tools)
+[0.728s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_gazebo' with build type 'ament_cmake'
+[0.728s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_gazebo'
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_msgs)
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs' for CMake module files
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_msgs
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_msgs', 'cmake_prefix_path')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/cmake_prefix_path.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/cmake_prefix_path.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/cmake_prefix_path.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib'
+[0.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_msgs', 'ld_library_path_lib')
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/ld_library_path_lib.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/ld_library_path_lib.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/ld_library_path_lib.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/pkgconfig/mir_msgs.pc'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/python3.10/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.zsh'
+[0.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/colcon-core/packages/mir_msgs)
+[0.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_msgs)
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs' for CMake module files
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs' for CMake config files
+[0.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_msgs', 'cmake_prefix_path')
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/cmake_prefix_path.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/cmake_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/cmake_prefix_path.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib'
+[0.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_msgs', 'ld_library_path_lib')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/ld_library_path_lib.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/ld_library_path_lib.dsv'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/hook/ld_library_path_lib.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/bin'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/pkgconfig/mir_msgs.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/python3.10/site-packages'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/bin'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.bash'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.zsh'
+[0.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/colcon-core/packages/mir_msgs)
+[0.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1 -- -j16 -l16
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo -- -j16 -l16
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_slam -- -j16 -l16
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_slam
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_gazebo': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_gazebo -- -j16 -l16
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_nav -- -j16 -l16
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_nav
+[0.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_exam1)
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1' for CMake module files
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1' for CMake config files
+[0.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_exam1', 'cmake_prefix_path')
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/hook/cmake_prefix_path.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/hook/cmake_prefix_path.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/hook/cmake_prefix_path.sh'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/bin'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/pkgconfig/fra532_exam1.pc'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/python3.10/site-packages'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/bin'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.sh'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.zsh'
+[0.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/colcon-core/packages/fra532_exam1)
+[0.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_exam1)
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1' for CMake module files
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1' for CMake config files
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_exam1', 'cmake_prefix_path')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/hook/cmake_prefix_path.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/hook/cmake_prefix_path.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/hook/cmake_prefix_path.sh'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/bin'
+[0.798s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/pkgconfig/fra532_exam1.pc'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/python3.10/site-packages'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/bin'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.sh'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.bash'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.zsh'
+[0.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/colcon-core/packages/fra532_exam1)
+[0.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_slam)
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam' for CMake module files
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_slam
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam' for CMake config files
+[0.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_slam', 'cmake_prefix_path')
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/hook/cmake_prefix_path.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/hook/cmake_prefix_path.dsv'
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/hook/cmake_prefix_path.sh'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/bin'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib/pkgconfig/fra532_slam.pc'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib/python3.10/site-packages'
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/bin'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.sh'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.bash'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.zsh'
+[0.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/colcon-core/packages/fra532_slam)
+[0.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_slam)
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam' for CMake module files
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam' for CMake config files
+[0.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_slam', 'cmake_prefix_path')
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/hook/cmake_prefix_path.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/hook/cmake_prefix_path.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/hook/cmake_prefix_path.sh'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/bin'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib/pkgconfig/fra532_slam.pc'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib/python3.10/site-packages'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/bin'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.bash'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.zsh'
+[0.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/colcon-core/packages/fra532_slam)
+[0.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_gazebo)
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo' for CMake module files
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_gazebo
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo' for CMake config files
+[0.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_gazebo', 'cmake_prefix_path')
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/hook/cmake_prefix_path.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/hook/cmake_prefix_path.dsv'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/hook/cmake_prefix_path.sh'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/lib'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/bin'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/lib/pkgconfig/fra532_gazebo.pc'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/lib/python3.10/site-packages'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/bin'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.dsv'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.sh'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.bash'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.zsh'
+[0.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/colcon-core/packages/fra532_gazebo)
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_gazebo)
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo' for CMake module files
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo' for CMake config files
+[0.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_gazebo', 'cmake_prefix_path')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/hook/cmake_prefix_path.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/hook/cmake_prefix_path.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/hook/cmake_prefix_path.sh'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/lib'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/bin'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/lib/pkgconfig/fra532_gazebo.pc'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/lib/python3.10/site-packages'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/bin'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.sh'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.bash'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/fra532_gazebo/package.zsh'
+[0.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/share/colcon-core/packages/fra532_gazebo)
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_gazebo -- -j16 -l16
+[0.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_gazebo': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_gazebo
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_nav)
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav' for CMake module files
+[0.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_nav
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav' for CMake config files
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_nav', 'cmake_prefix_path')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/hook/cmake_prefix_path.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/hook/cmake_prefix_path.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/hook/cmake_prefix_path.sh'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/bin'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib/pkgconfig/fra532_nav.pc'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib/python3.10/site-packages'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/bin'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.ps1'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.sh'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.bash'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.zsh'
+[0.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/colcon-core/packages/fra532_nav)
+[0.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra532_nav)
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav' for CMake module files
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav' for CMake config files
+[0.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra532_nav', 'cmake_prefix_path')
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/hook/cmake_prefix_path.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/hook/cmake_prefix_path.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/hook/cmake_prefix_path.sh'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/bin'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib/pkgconfig/fra532_nav.pc'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/lib/python3.10/site-packages'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/bin'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.sh'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.bash'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/fra532_nav/package.zsh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/share/colcon-core/packages/fra532_nav)
+[0.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_gazebo)
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo' for CMake module files
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_gazebo
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo' for CMake config files
+[0.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_gazebo', 'cmake_prefix_path')
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/hook/cmake_prefix_path.ps1'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/hook/cmake_prefix_path.dsv'
+[0.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/hook/cmake_prefix_path.sh'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/bin'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/lib/pkgconfig/mir_gazebo.pc'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/lib/python3.10/site-packages'
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/bin'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.ps1'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.sh'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.bash'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.zsh'
+[0.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/colcon-core/packages/mir_gazebo)
+[0.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_gazebo)
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo' for CMake module files
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo' for CMake config files
+[0.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_gazebo', 'cmake_prefix_path')
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/hook/cmake_prefix_path.ps1'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/hook/cmake_prefix_path.dsv'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/hook/cmake_prefix_path.sh'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/bin'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/lib/pkgconfig/mir_gazebo.pc'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/lib/python3.10/site-packages'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/bin'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.ps1'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.sh'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.bash'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/mir_gazebo/package.zsh'
+[0.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo/share/colcon-core/packages/mir_gazebo)
+[0.834s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_robot' with build type 'ament_cmake'
+[0.834s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_robot'
+[0.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_robot': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_robot -- -j16 -l16
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_robot' returned '0': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_robot -- -j16 -l16
+[0.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_robot': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_robot
+[0.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_robot)
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot' for CMake module files
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_robot' returned '0': CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_robot
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot' for CMake config files
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_robot', 'cmake_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/hook/cmake_prefix_path.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/hook/cmake_prefix_path.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/hook/cmake_prefix_path.sh'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/bin'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/lib/pkgconfig/mir_robot.pc'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/lib/python3.10/site-packages'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/bin'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.sh'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.bash'
+[0.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.zsh'
+[0.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/colcon-core/packages/mir_robot)
+[0.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_robot)
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot' for CMake module files
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_robot', 'cmake_prefix_path')
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/hook/cmake_prefix_path.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/hook/cmake_prefix_path.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/hook/cmake_prefix_path.sh'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/bin'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/lib/pkgconfig/mir_robot.pc'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/lib/python3.10/site-packages'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/bin'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.ps1'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.dsv'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.sh'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.bash'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.zsh'
+[0.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/colcon-core/packages/mir_robot)
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/src/twist_stamper': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build install --record /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/install.log --single-version-externally-managed install_data
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_restapi build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log --single-version-externally-managed install_data
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper' for CMake module files
+[1.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/src/twist_stamper' returned '0': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build install --record /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/install.log --single-version-externally-managed install_data
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper' for CMake config files
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/bin'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/pkgconfig/twist_stamper.pc'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages'
+[1.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('twist_stamper', 'pythonpath')
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/hook/pythonpath.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/hook/pythonpath.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/hook/pythonpath.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(twist_stamper)
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/package.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/package.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper/package.zsh'
+[1.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/colcon-core/packages/twist_stamper)
+[1.137s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_driver' with build type 'ament_python'
+[1.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_driver', 'ament_prefix_path')
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/hook/ament_prefix_path.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/hook/ament_prefix_path.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/hook/ament_prefix_path.sh'
+[1.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.311s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_driver'
+[1.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi' for CMake module files
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi' returned '0': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_restapi build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log --single-version-externally-managed install_data
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi' for CMake config files
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/bin'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/pkgconfig/mir_restapi.pc'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages'
+[1.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_restapi', 'pythonpath')
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/hook/pythonpath.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/hook/pythonpath.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/hook/pythonpath.sh'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/bin'
+[1.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_restapi)
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/package.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/package.dsv'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/package.sh'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/package.bash'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/mir_restapi/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/share/colcon-core/packages/mir_restapi)
+[1.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_driver': AMENT_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world LD_LIBRARY_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/package_name/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/local/lib/python3.10/dist-packages:/home/tadtawan/install/lab1_1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_driver build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_driver/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_driver/install.log --single-version-externally-managed install_data
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_driver' for CMake module files
+[1.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_driver' returned '0': AMENT_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world LD_LIBRARY_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/package_name/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/local/lib/python3.10/dist-packages:/home/tadtawan/install/lab1_1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_driver build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_driver/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_driver/install.log --single-version-externally-managed install_data
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_driver' for CMake config files
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib'
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/bin'
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/pkgconfig/mir_driver.pc'
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages'
+[1.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_driver', 'pythonpath')
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/hook/pythonpath.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/hook/pythonpath.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/hook/pythonpath.sh'
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/bin'
+[1.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_driver)
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/package.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/package.dsv'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/package.sh'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/package.bash'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/mir_driver/package.zsh'
+[1.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_driver/share/colcon-core/packages/mir_driver)
+[1.745s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_navigation' with build type 'ament_cmake'
+[1.745s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_navigation'
+[1.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_navigation': AMENT_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble LD_LIBRARY_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/package_name/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/local/lib/python3.10/dist-packages:/home/tadtawan/install/lab1_1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_navigation -- -j16 -l16
+[1.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_navigation' returned '0': AMENT_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble LD_LIBRARY_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/package_name/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/local/lib/python3.10/dist-packages:/home/tadtawan/install/lab1_1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_navigation -- -j16 -l16
+[1.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_navigation': AMENT_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble LD_LIBRARY_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/package_name/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/local/lib/python3.10/dist-packages:/home/tadtawan/install/lab1_1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_navigation
+[1.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_navigation)
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation' for CMake module files
+[1.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_navigation' returned '0': AMENT_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/opt/ros/humble CMAKE_PREFIX_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs:/home/tadtawan/fra532_lecture5_ws/install/mir_description:/home/tadtawan/fra532_lecture5_ws/install/ira_laser_tools:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1:/home/tadtawan/fra532_lecture5_ws/install/mir_navigation:/home/tadtawan/fra532_lecture5_ws/install/package_name:/home/tadtawan/fra532_lecture5_ws/install/mir_robot:/home/tadtawan/fra532_lecture5_ws/install/mir_gazebo:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo:/home/tadtawan/install/lab1_1:/home/tadtawan/aws-robomaker-small-warehouse-world/install/aws_robomaker_small_warehouse_world:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble LD_LIBRARY_PATH=/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/install/mir_driver/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/package_name/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_nav/local/lib/python3.10/dist-packages:/home/tadtawan/fra532_lecture5_ws/install/fra532_gazebo/local/lib/python3.10/dist-packages:/home/tadtawan/install/lab1_1/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_navigation
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation' for CMake config files
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_navigation', 'cmake_prefix_path')
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/hook/cmake_prefix_path.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/hook/cmake_prefix_path.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/hook/cmake_prefix_path.sh'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/bin'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/lib/pkgconfig/mir_navigation.pc'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/lib/python3.10/site-packages'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/bin'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.ps1'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.sh'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.bash'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.zsh'
+[1.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/colcon-core/packages/mir_navigation)
+[1.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_navigation)
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation' for CMake module files
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation' for CMake config files
+[1.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_navigation', 'cmake_prefix_path')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/hook/cmake_prefix_path.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/hook/cmake_prefix_path.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/hook/cmake_prefix_path.sh'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/bin'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/lib/pkgconfig/mir_navigation.pc'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/lib/python3.10/site-packages'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/bin'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.sh'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.bash'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/mir_navigation/package.zsh'
+[1.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tadtawan/fra532_lecture5_ws/install/mir_navigation/share/colcon-core/packages/mir_navigation)
+[1.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.797s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.801s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.809s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tadtawan/fra532_lecture5_ws/install/local_setup.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tadtawan/fra532_lecture5_ws/install/_local_setup_util_ps1.py'
+[1.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tadtawan/fra532_lecture5_ws/install/setup.ps1'
+[1.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tadtawan/fra532_lecture5_ws/install/local_setup.sh'
+[1.812s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tadtawan/fra532_lecture5_ws/install/_local_setup_util_sh.py'
+[1.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tadtawan/fra532_lecture5_ws/install/setup.sh'
+[1.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tadtawan/fra532_lecture5_ws/install/local_setup.bash'
+[1.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tadtawan/fra532_lecture5_ws/install/setup.bash'
+[1.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tadtawan/fra532_lecture5_ws/install/local_setup.zsh'
+[1.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tadtawan/fra532_lecture5_ws/install/setup.zsh'

@@ -1,0 +1,8 @@
+{
+  "package_name": "mir_msgs",
+  "non_idl_tuples": [
+    "/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_msgs:msg/BatteryCurrents.msg",
+    "/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_msgs:msg/BMSData.msg",
+    "/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_msgs:srv/ExecMission.srv"
+  ]
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCloudPile.a CMakeFiles/CloudPile.dir/src/CloudPile.cpp.o
+/usr/bin/ranlib libCloudPile.a

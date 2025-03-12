@@ -1,0 +1,52 @@
+[0.031s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_description -- -j16 -l16
+[0.440s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_description -- -j16 -l16
+[0.442s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_description
+[0.452s] -- Install configuration: ""
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/mir_100_cam.urdf.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/wheel.urdf.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/imu.gazebo.urdf.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/common_properties.urdf.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/mir_100_v1.urdf.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/common.gazebo.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/mir_100.gazebo.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/caster.urdf.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/sick_s300.urdf.xacro
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/mir_100.transmission.xacro
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/mir.urdf.xacro
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz/mir_visualization.rviz
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz/mir_description.rviz
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/rviz/mir_visu_full.rviz
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/caster_wheel_base.stl
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/wheel.stl
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/sick_lms-100.stl
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/visual/mir_100_base.stl
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/collision
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/collision/caster_wheel_base.stl
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/meshes/collision/mir_100_base.stl
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/config
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/config/diffdrive_controller.yaml
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/config/joint_state_controller.yaml
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/launch
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/launch/mir_display_launch.py
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/launch/mir_launch.py
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/ament_index/resource_index/package_run_dependencies/mir_description
+[0.457s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/ament_index/resource_index/parent_prefix_path/mir_description
+[0.457s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/ament_prefix_path.sh
+[0.457s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/ament_prefix_path.dsv
+[0.457s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/path.sh
+[0.457s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/environment/path.dsv
+[0.457s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.bash
+[0.457s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.sh
+[0.459s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.zsh
+[0.459s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/local_setup.dsv
+[0.459s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.dsv
+[0.459s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/ament_index/resource_index/packages/mir_description
+[0.459s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/cmake/mir_descriptionConfig.cmake
+[0.459s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/cmake/mir_descriptionConfig-version.cmake
+[0.459s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/package.xml
+[0.488s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_description

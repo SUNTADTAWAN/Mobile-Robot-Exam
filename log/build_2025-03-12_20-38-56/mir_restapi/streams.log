@@ -1,0 +1,23 @@
+[0.714s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_restapi build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log --single-version-externally-managed install_data
+[0.859s] running egg_info
+[0.859s] writing ../../../build/mir_restapi/mir_restapi.egg-info/PKG-INFO
+[0.862s] writing dependency_links to ../../../build/mir_restapi/mir_restapi.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../../build/mir_restapi/mir_restapi.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../../build/mir_restapi/mir_restapi.egg-info/requires.txt
+[0.862s] writing top-level names to ../../../build/mir_restapi/mir_restapi.egg-info/top_level.txt
+[0.863s] reading manifest file '../../../build/mir_restapi/mir_restapi.egg-info/SOURCES.txt'
+[0.863s] adding license file 'LICENSE'
+[0.863s] writing manifest file '../../../build/mir_restapi/mir_restapi.egg-info/SOURCES.txt'
+[0.863s] running build
+[0.863s] running build_py
+[0.864s] running install
+[0.864s] running install_lib
+[0.865s] running install_data
+[0.865s] running install_egg_info
+[0.866s] removing '/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi-0.0.0-py3.10.egg-info' (and everything under it)
+[0.866s] Copying ../../../build/mir_restapi/mir_restapi.egg-info to /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages/mir_restapi-0.0.0-py3.10.egg-info
+[0.866s] running install_scripts
+[0.880s] Installing mir_restapi_server script to /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/mir_restapi
+[0.880s] Installing mir_restapi_sync_time script to /home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/mir_restapi
+[0.880s] writing list of installed files to '/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log'
+[0.902s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/src/mir_robot/mir_restapi' returned '0': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mir_restapi build --build-base /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/build install --record /home/tadtawan/fra532_lecture5_ws/build/mir_restapi/install.log --single-version-externally-managed install_data

@@ -1,0 +1,11 @@
+setup.py
+mir_msgs/__init__.py
+mir_msgs.egg-info/PKG-INFO
+mir_msgs.egg-info/SOURCES.txt
+mir_msgs.egg-info/dependency_links.txt
+mir_msgs.egg-info/top_level.txt
+mir_msgs/msg/__init__.py
+mir_msgs/msg/_battery_currents.py
+mir_msgs/msg/_bms_data.py
+mir_msgs/srv/__init__.py
+mir_msgs/srv/_exec_mission.py

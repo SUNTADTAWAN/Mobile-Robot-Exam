@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mir_msgs/srv/ExecMission.srv
+// generated code does not contain a copyright notice
+
+
+module mir_msgs {
+  module srv {
+    struct ExecMission_Request {
+      string mission_name;
+    };
+    struct ExecMission_Response {
+      string message;
+
+      boolean success;
+    };
+  };
+};

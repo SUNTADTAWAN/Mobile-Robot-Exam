@@ -1,0 +1,6 @@
+source;share/mir_restapi/hook/pythonpath.ps1
+source;share/mir_restapi/hook/pythonpath.dsv
+source;share/mir_restapi/hook/pythonpath.sh
+source;share/mir_restapi/hook/ament_prefix_path.ps1
+source;share/mir_restapi/hook/ament_prefix_path.dsv
+source;share/mir_restapi/hook/ament_prefix_path.sh

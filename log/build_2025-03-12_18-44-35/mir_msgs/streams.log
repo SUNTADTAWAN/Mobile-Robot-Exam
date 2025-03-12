@@ -1,0 +1,202 @@
+[0.030s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_msgs -- -j16 -l16
+[0.216s] [  2%] Built target mir_msgs__cpp
+[0.216s] [ 12%] Built target mir_msgs__rosidl_generator_c
+[0.216s] [ 12%] Built target ament_cmake_python_copy_mir_msgs
+[0.216s] [ 23%] Built target mir_msgs__rosidl_typesupport_c
+[0.216s] [ 34%] Built target mir_msgs__rosidl_typesupport_fastrtps_cpp
+[0.216s] [ 46%] Built target mir_msgs__rosidl_typesupport_cpp
+[0.217s] [ 55%] Built target mir_msgs__rosidl_typesupport_introspection_cpp
+[0.217s] [ 65%] Built target mir_msgs__rosidl_typesupport_fastrtps_c
+[0.217s] [ 76%] Built target mir_msgs__rosidl_typesupport_introspection_c
+[0.217s] [ 76%] Built target mir_msgs
+[0.217s] [ 78%] Built target mir_msgs__py
+[0.217s] [ 87%] Built target mir_msgs__rosidl_generator_py
+[0.217s] [ 93%] Built target mir_msgs__rosidl_typesupport_introspection_c__pyext
+[0.217s] [ 95%] Built target mir_msgs__rosidl_typesupport_c__pyext
+[0.217s] [100%] Built target mir_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.238s] running egg_info
+[0.239s] writing mir_msgs.egg-info/PKG-INFO
+[0.239s] writing dependency_links to mir_msgs.egg-info/dependency_links.txt
+[0.239s] writing top-level names to mir_msgs.egg-info/top_level.txt
+[0.241s] reading manifest file 'mir_msgs.egg-info/SOURCES.txt'
+[0.242s] writing manifest file 'mir_msgs.egg-info/SOURCES.txt'
+[0.264s] [100%] Built target ament_cmake_python_build_mir_msgs_egg
+[0.412s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/mir_msgs -- -j16 -l16
+[0.413s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_msgs
+[0.428s] -- Install configuration: ""
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/ament_index/resource_index/rosidl_interfaces/mir_msgs
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/battery_currents.h
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__functions.c
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__functions.h
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__struct.h
+[0.428s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__type_support.h
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__type_support.h
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__functions.c
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__functions.h
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__struct.h
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/bms_data.h
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__type_support.h
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__functions.c
+[0.429s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__functions.h
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__struct.h
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/exec_mission.h
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/library_path.sh
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/library_path.dsv
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_generator_c.so
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.430s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__rosidl_typesupport_fastrtps_c.h
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__rosidl_typesupport_fastrtps_c.h
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__rosidl_typesupport_fastrtps_c.h
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_typesupport_fastrtps_c.so
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/battery_currents.hpp
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__type_support.hpp
+[0.431s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__struct.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__builder.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__traits.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__traits.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__struct.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__builder.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__type_support.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/bms_data.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/exec_mission.hpp
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail
+[0.432s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__type_support.hpp
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__builder.hpp
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__struct.hpp
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__traits.hpp
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/dds_fastrtps
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__rosidl_typesupport_fastrtps_cpp.hpp
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv
+[0.433s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/dds_fastrtps
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__rosidl_typesupport_fastrtps_cpp.hpp
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__rosidl_typesupport_introspection_c.h
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__type_support.c
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__type_support.c
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__rosidl_typesupport_introspection_c.h
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.434s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv
+[0.435s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__rosidl_typesupport_introspection_c.h
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__type_support.c
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_typesupport_introspection_c.so
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_typesupport_c.so
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__type_support.cpp
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/bms_data__rosidl_typesupport_introspection_cpp.hpp
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__rosidl_typesupport_introspection_cpp.hpp
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/msg/detail/battery_currents__type_support.cpp
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail
+[0.436s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__rosidl_typesupport_introspection_cpp.hpp
+[0.437s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/include/mir_msgs/mir_msgs/srv/detail/exec_mission__type_support.cpp
+[0.437s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_typesupport_introspection_cpp.so
+[0.437s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_typesupport_cpp.so
+[0.437s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/pythonpath.sh
+[0.437s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/pythonpath.dsv
+[0.437s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs-1.1.1-py3.10.egg-info
+[0.437s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs-1.1.1-py3.10.egg-info/top_level.txt
+[0.437s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs-1.1.1-py3.10.egg-info/dependency_links.txt
+[0.438s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs-1.1.1-py3.10.egg-info/SOURCES.txt
+[0.438s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs-1.1.1-py3.10.egg-info/PKG-INFO
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/msg
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/msg/_bms_data.py
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/msg/__init__.py
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/msg/_battery_currents.py
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/msg/_bms_data_s.c
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/msg/_battery_currents_s.c
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/_mir_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/mir_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/_mir_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/mir_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.438s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/libmir_msgs__rosidl_generator_py.so
+[0.439s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/_mir_msgs_s.ep.rosidl_typesupport_c.c
+[0.439s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/__init__.py
+[0.439s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/mir_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.439s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/srv
+[0.439s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/srv/_exec_mission_s.c
+[0.439s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/srv/_exec_mission.py
+[0.439s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/srv/__init__.py
+[0.449s] Listing '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs'...
+[0.449s] Listing '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/msg'...
+[0.449s] Listing '/home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/srv'...
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/mir_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/mir_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/local/lib/python3.10/dist-packages/mir_msgs/mir_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/lib/libmir_msgs__rosidl_generator_py.so
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/msg/BatteryCurrents.idl
+[0.453s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/msg/BMSData.idl
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/srv/ExecMission.idl
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/msg/BatteryCurrents.msg
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/msg/BMSData.msg
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/srv/ExecMission.srv
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/srv/ExecMission_Request.msg
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/srv/ExecMission_Response.msg
+[0.454s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/ament_index/resource_index/package_run_dependencies/mir_msgs
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/ament_index/resource_index/parent_prefix_path/mir_msgs
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/ament_prefix_path.sh
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/ament_prefix_path.dsv
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/path.sh
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/environment/path.dsv
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/local_setup.bash
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/local_setup.sh
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/local_setup.zsh
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/local_setup.dsv
+[0.455s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.dsv
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/ament_index/resource_index/packages/mir_msgs
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_generator_cExport.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_generator_cppExport.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_cExport.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.455s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_cppExport.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_generator_pyExport.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/export_mir_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/rosidl_cmake-extras.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgsConfig.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/cmake/mir_msgsConfig-version.cmake
+[0.456s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/mir_msgs/share/mir_msgs/package.xml
+[0.471s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/mir_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/mir_msgs

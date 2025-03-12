@@ -1,0 +1,42 @@
+[0.789s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/src/twist_stamper': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build install --record /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/install.log --single-version-externally-managed install_data
+[0.986s] running egg_info
+[0.986s] creating ../../build/twist_stamper/twist_stamper.egg-info
+[0.986s] writing ../../build/twist_stamper/twist_stamper.egg-info/PKG-INFO
+[0.986s] writing dependency_links to ../../build/twist_stamper/twist_stamper.egg-info/dependency_links.txt
+[0.987s] writing entry points to ../../build/twist_stamper/twist_stamper.egg-info/entry_points.txt
+[0.987s] writing requirements to ../../build/twist_stamper/twist_stamper.egg-info/requires.txt
+[0.987s] writing top-level names to ../../build/twist_stamper/twist_stamper.egg-info/top_level.txt
+[0.987s] writing manifest file '../../build/twist_stamper/twist_stamper.egg-info/SOURCES.txt'
+[0.988s] reading manifest file '../../build/twist_stamper/twist_stamper.egg-info/SOURCES.txt'
+[0.988s] adding license file 'LICENSE'
+[0.989s] writing manifest file '../../build/twist_stamper/twist_stamper.egg-info/SOURCES.txt'
+[0.989s] running build
+[0.990s] running build_py
+[0.990s] creating /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build
+[0.990s] creating /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib
+[0.990s] creating /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib/twist_stamper
+[0.990s] copying twist_stamper/twist_stamper.py -> /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib/twist_stamper
+[0.991s] copying twist_stamper/twist_unstamper.py -> /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib/twist_stamper
+[0.991s] copying twist_stamper/__init__.py -> /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib/twist_stamper
+[0.991s] running install
+[0.993s] running install_lib
+[0.993s] creating /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper
+[0.993s] copying /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib/twist_stamper/twist_stamper.py -> /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper
+[0.993s] copying /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib/twist_stamper/twist_unstamper.py -> /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper
+[0.994s] copying /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build/lib/twist_stamper/__init__.py -> /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper
+[0.995s] byte-compiling /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper/twist_stamper.py to twist_stamper.cpython-310.pyc
+[0.995s] byte-compiling /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper/twist_unstamper.py to twist_unstamper.cpython-310.pyc
+[0.996s] byte-compiling /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper/__init__.py to __init__.cpython-310.pyc
+[0.996s] running install_data
+[0.996s] creating /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/ament_index
+[0.996s] creating /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/ament_index/resource_index
+[0.996s] creating /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/ament_index/resource_index/packages
+[0.996s] copying resource/twist_stamper -> /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/ament_index/resource_index/packages
+[0.996s] copying package.xml -> /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/share/twist_stamper
+[0.997s] running install_egg_info
+[0.998s] Copying ../../build/twist_stamper/twist_stamper.egg-info to /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages/twist_stamper-0.0.2-py3.10.egg-info
+[0.999s] running install_scripts
+[1.019s] Installing twist_stamper script to /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/twist_stamper
+[1.019s] Installing twist_unstamper script to /home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/twist_stamper
+[1.019s] writing list of installed files to '/home/tadtawan/fra532_lecture5_ws/build/twist_stamper/install.log'
+[1.043s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/src/twist_stamper' returned '0': PYTHONPATH=/home/tadtawan/fra532_lecture5_ws/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twist_stamper build --build-base /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/build install --record /home/tadtawan/fra532_lecture5_ws/build/twist_stamper/install.log --single-version-externally-managed install_data

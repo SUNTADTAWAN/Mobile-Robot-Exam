@@ -1,0 +1,7 @@
+setup.py
+fra532_nav/__init__.py
+fra532_nav/dummy_module.py
+fra532_nav.egg-info/PKG-INFO
+fra532_nav.egg-info/SOURCES.txt
+fra532_nav.egg-info/dependency_links.txt
+fra532_nav.egg-info/top_level.txt

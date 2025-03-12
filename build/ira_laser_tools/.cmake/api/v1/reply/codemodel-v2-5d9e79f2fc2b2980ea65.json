@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f1106dc6db7573e55c29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ira_laser_tools",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CloudPile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CloudPile-31d3370f6a962bf228b3.json",
+					"name" : "CloudPile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ira_laser_tools_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ira_laser_tools_uninstall-069c718de9c4bd51072f.json",
+					"name" : "ira_laser_tools_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laserscan_multi_merger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laserscan_multi_merger-cb3eb4b9290cb459611d.json",
+					"name" : "laserscan_multi_merger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-115bf99b14aaa0569a27.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tadtawan/fra532_lecture5_ws/build/ira_laser_tools",
+		"source" : "/home/tadtawan/fra532_lecture5_ws/src/ira_laser_tools/src/ira_laser_tools"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

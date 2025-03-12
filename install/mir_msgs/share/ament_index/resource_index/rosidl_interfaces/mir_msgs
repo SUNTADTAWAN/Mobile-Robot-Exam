@@ -1,0 +1,8 @@
+msg/BMSData.idl
+msg/BMSData.msg
+msg/BatteryCurrents.idl
+msg/BatteryCurrents.msg
+srv/ExecMission.idl
+srv/ExecMission.srv
+srv/ExecMission_Request.msg
+srv/ExecMission_Response.msg

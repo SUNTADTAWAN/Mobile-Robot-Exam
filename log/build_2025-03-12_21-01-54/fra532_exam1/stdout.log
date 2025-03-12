@@ -1,0 +1,47 @@
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_fra532_exam1
+running egg_info
+writing fra532_exam1.egg-info/PKG-INFO
+writing dependency_links to fra532_exam1.egg-info/dependency_links.txt
+writing top-level names to fra532_exam1.egg-info/top_level.txt
+reading manifest file 'fra532_exam1.egg-info/SOURCES.txt'
+writing manifest file 'fra532_exam1.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_fra532_exam1_egg
+-- Install configuration: ""
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/pythonpath.sh
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/pythonpath.dsv
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info
+-- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1/__init__.py
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1/dummy_module.py
+Listing '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1'...
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/dummy_script.py
+-- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/aruco_detect.py
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/cpp_node_test
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/worlds
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/worlds/pole.world
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/launch
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/launch/world.launch.py
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/aruco_marker_gen.py
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/dummy_script.py
+-- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/aruco_detect.py
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/ament_index/resource_index/package_run_dependencies/fra532_exam1
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/ament_index/resource_index/parent_prefix_path/fra532_exam1
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/path.sh
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/path.dsv
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.bash
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.sh
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.zsh
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.dsv
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.dsv
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/ament_index/resource_index/packages/fra532_exam1
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/cmake/fra532_exam1Config.cmake
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/cmake/fra532_exam1Config-version.cmake
+-- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.xml

@@ -1,0 +1,15 @@
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/ament_index/resource_index/package_run_dependencies/mir_robot
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/ament_index/resource_index/parent_prefix_path/mir_robot
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/environment/ament_prefix_path.sh
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/environment/ament_prefix_path.dsv
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/environment/path.sh
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/environment/path.dsv
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/local_setup.bash
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/local_setup.sh
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/local_setup.zsh
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/local_setup.dsv
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.dsv
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/ament_index/resource_index/packages/mir_robot
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/cmake/mir_robotConfig.cmake
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/cmake/mir_robotConfig-version.cmake
+/home/tadtawan/fra532_lecture5_ws/install/mir_robot/share/mir_robot/package.xml
