@@ -1,4 +1,3 @@
-/home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/mir_100_cam.urdf.xacro
 /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/wheel.urdf.xacro
 /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/imu.gazebo.urdf.xacro
 /home/tadtawan/fra532_lecture5_ws/install/mir_description/share/mir_description/urdf/include/common_properties.urdf.xacro

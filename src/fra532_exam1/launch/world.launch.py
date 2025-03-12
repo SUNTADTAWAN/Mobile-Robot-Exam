@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os
 import xacro
 from ament_index_python.packages import get_package_share_directory
@@ -28,11 +30,6 @@ def generate_launch_description():
         robot_description_config = xacro.process_file(xacro_file)
         robot_description = {'robot_description': robot_description_config.toxml()}
 
-        # Debug: Print robot description to check if it's valid
-        print("========== ROBOT DESCRIPTION ==========")
-        print(robot_description['robot_description'])
-        print("=======================================")
-
     except Exception as e:
         return LaunchDescription([
             LogInfo(msg=f"Error: {str(e)}")
@@ -41,6 +38,12 @@ def generate_launch_description():
     # Declare world argument
     world_arg = DeclareLaunchArgument(
         'world', default_value=world_path, description='Gazebo world file')
+
+    # Declare spawn position arguments
+    spawn_x_arg = DeclareLaunchArgument('spawn_x', default_value='1.0', description='X position of the robot')
+    spawn_y_arg = DeclareLaunchArgument('spawn_y', default_value='1.0', description='Y position of the robot')
+    spawn_z_arg = DeclareLaunchArgument('spawn_z', default_value='0.1', description='Z position of the robot')
+    spawn_yaw_arg = DeclareLaunchArgument('spawn_yaw', default_value='0.0', description='Yaw rotation (radians)')
 
     # Include Gazebo server launch
     gazebo_server = IncludeLaunchDescription(
@@ -65,34 +68,43 @@ def generate_launch_description():
         parameters=[robot_description]
     )
 
-    # Spawn MiR robot in Gazebo
+    # Spawn MiR robot in Gazebo with custom position
     spawn_robot = TimerAction(
-    period=3.0,  # Delay 3 seconds before spawning
-    actions=[
-        Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            arguments=['-entity', 'mir_robot',
-                       '-topic', 'robot_description',
-                       '-b'],
-            namespace='',
-            output='screen'
-        )
-    ]
+        period=3.0,  # Delay 3 seconds before spawning
+        actions=[
+            Node(
+                package='gazebo_ros',
+                executable='spawn_entity.py',
+                arguments=[
+                    '-entity', 'mir_robot',
+                    '-topic', 'robot_description',
+                    '-x', LaunchConfiguration('spawn_x'),
+                    '-y', LaunchConfiguration('spawn_y'),
+                    '-z', LaunchConfiguration('spawn_z'),
+                    '-Y', LaunchConfiguration('spawn_yaw'),
+                    '-b'
+                ],
+                namespace='',
+                output='screen'
+            )
+        ]
     )
 
     # Launch teleoperation node
-
     launch_teleop = Node(
         package='teleop_twist_keyboard',
         executable='teleop_twist_keyboard',
         namespace='',
         output='screen',
-        prefix='xterm -e')
-
+        prefix='xterm -e'
+    )
 
     return LaunchDescription([
         world_arg,
+        spawn_x_arg,
+        spawn_y_arg,
+        spawn_z_arg,
+        spawn_yaw_arg,
         gazebo_server,
         gazebo_client,
         robot_state_publisher,

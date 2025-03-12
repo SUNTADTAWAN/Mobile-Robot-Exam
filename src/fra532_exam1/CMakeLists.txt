@@ -30,7 +30,10 @@ install(PROGRAMS
   scripts/dummy_script.py
   scripts/aruco_detect.py
   scripts/locolization.py
-  scripts/aruco_pole_localization.py
+  scripts/ArucoPoseTransformer.py
+  scripts/ArucoPoseChecker.py
+  scripts/wheel_odometry.py
+  scripts/imu_odometry.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

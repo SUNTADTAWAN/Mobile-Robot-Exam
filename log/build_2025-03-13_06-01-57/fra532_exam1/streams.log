@@ -1,0 +1,60 @@
+[0.226s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1 -- -j16 -l16
+[0.265s] [100%] Built target cpp_node_test
+[0.270s] [100%] Built target ament_cmake_python_copy_fra532_exam1
+[0.508s] running egg_info
+[0.508s] writing fra532_exam1.egg-info/PKG-INFO
+[0.508s] writing dependency_links to fra532_exam1.egg-info/dependency_links.txt
+[0.508s] writing top-level names to fra532_exam1.egg-info/top_level.txt
+[0.508s] reading manifest file 'fra532_exam1.egg-info/SOURCES.txt'
+[0.508s] writing manifest file 'fra532_exam1.egg-info/SOURCES.txt'
+[0.532s] [100%] Built target ament_cmake_python_build_fra532_exam1_egg
+[0.570s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1 -- -j16 -l16
+[0.572s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1
+[0.581s] -- Install configuration: ""
+[0.581s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/pythonpath.sh
+[0.581s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/pythonpath.dsv
+[0.581s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info
+[0.582s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/top_level.txt
+[0.582s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.582s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.582s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1-0.0.0-py3.10.egg-info/PKG-INFO
+[0.582s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1
+[0.582s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1/__init__.py
+[0.582s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1/dummy_module.py
+[0.621s] Listing '/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/local/lib/python3.10/dist-packages/fra532_exam1'...
+[0.624s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/dummy_script.py
+[0.625s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/aruco_detect.py
+[0.625s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/locolization.py
+[0.625s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/ArucoPoseTransformer.py
+[0.625s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/ArucoPoseChecker.py
+[0.625s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/wheel_odometry.py
+[0.625s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/imu_odometry.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/cpp_node_test
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/worlds
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/worlds/pole.world
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/launch
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/launch/world.launch.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/wheel_odometry.py
+[0.626s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/imu_odometry.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/ArucoPoseChecker.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/locolization.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/ArucoPoseTransformer.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/dummy_script.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/aruco_detect.py
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/ament_index/resource_index/package_run_dependencies/fra532_exam1
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/ament_index/resource_index/parent_prefix_path/fra532_exam1
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/ament_prefix_path.sh
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/ament_prefix_path.dsv
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/path.sh
+[0.626s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/environment/path.dsv
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.bash
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.sh
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.zsh
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/local_setup.dsv
+[0.627s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.dsv
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/ament_index/resource_index/packages/fra532_exam1
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/cmake/fra532_exam1Config.cmake
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/cmake/fra532_exam1Config-version.cmake
+[0.627s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/package.xml
+[0.628s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_exam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_exam1
