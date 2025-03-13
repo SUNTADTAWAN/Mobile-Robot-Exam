@@ -1,0 +1,49 @@
+[0.235s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_slam -- -j16 -l16
+[0.275s] [100%] Built target cpp_node_test
+[0.279s] [100%] Built target ament_cmake_python_copy_fra532_slam
+[0.471s] running egg_info
+[0.471s] writing fra532_slam.egg-info/PKG-INFO
+[0.471s] writing dependency_links to fra532_slam.egg-info/dependency_links.txt
+[0.471s] writing top-level names to fra532_slam.egg-info/top_level.txt
+[0.482s] reading manifest file 'fra532_slam.egg-info/SOURCES.txt'
+[0.487s] writing manifest file 'fra532_slam.egg-info/SOURCES.txt'
+[0.522s] [100%] Built target ament_cmake_python_build_fra532_slam_egg
+[0.560s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --build /home/tadtawan/fra532_lecture5_ws/build/fra532_slam -- -j16 -l16
+[0.562s] Invoking command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_slam
+[0.570s] -- Install configuration: ""
+[0.570s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/environment/pythonpath.sh
+[0.570s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/environment/pythonpath.dsv
+[0.570s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam-0.0.0-py3.10.egg-info
+[0.570s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam-0.0.0-py3.10.egg-info/top_level.txt
+[0.570s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.570s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.570s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam-0.0.0-py3.10.egg-info/PKG-INFO
+[0.570s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam
+[0.570s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam/__init__.py
+[0.571s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam/dummy_module.py
+[0.599s] Listing '/home/tadtawan/fra532_lecture5_ws/install/fra532_slam/local/lib/python3.10/dist-packages/fra532_slam'...
+[0.603s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib/fra532_slam/dummy_script.py
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/lib/fra532_slam/cpp_node_test
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/launch
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/launch/save_map.launch.py
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/launch/mapping.launch.py
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/config
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/config/mapping_async.yaml
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/rviz
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/rviz/mapping.rviz
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/ament_index/resource_index/package_run_dependencies/fra532_slam
+[0.604s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/ament_index/resource_index/parent_prefix_path/fra532_slam
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/environment/ament_prefix_path.sh
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/environment/ament_prefix_path.dsv
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/environment/path.sh
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/environment/path.dsv
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/local_setup.bash
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/local_setup.sh
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/local_setup.zsh
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/local_setup.dsv
+[0.605s] -- Installing: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.dsv
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/ament_index/resource_index/packages/fra532_slam
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/cmake/fra532_slamConfig.cmake
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/cmake/fra532_slamConfig-version.cmake
+[0.605s] -- Up-to-date: /home/tadtawan/fra532_lecture5_ws/install/fra532_slam/share/fra532_slam/package.xml
+[0.607s] Invoked command in '/home/tadtawan/fra532_lecture5_ws/build/fra532_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tadtawan/fra532_lecture5_ws/install/mir_driver:/home/tadtawan/fra532_lecture5_ws/install/twist_stamper:/home/tadtawan/fra532_lecture5_ws/install/mir_restapi:/opt/ros/humble /usr/bin/cmake --install /home/tadtawan/fra532_lecture5_ws/build/fra532_slam

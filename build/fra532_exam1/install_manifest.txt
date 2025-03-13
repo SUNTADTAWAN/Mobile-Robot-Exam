@@ -13,11 +13,13 @@
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/ArucoPoseChecker.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/wheel_odometry.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/imu_odometry.py
+/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/PolePositionEstimator.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/lib/fra532_exam1/cpp_node_test
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/worlds/pole.world
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/launch/ekf_localization.launch.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/launch/world.launch.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/wheel_odometry.py
+/home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/PolePositionEstimator.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/imu_odometry.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/ArucoPoseChecker.py
 /home/tadtawan/fra532_lecture5_ws/install/fra532_exam1/share/fra532_exam1/scripts/locolization.py

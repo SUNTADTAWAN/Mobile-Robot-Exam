@@ -75,6 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/tadtawan/fra532_lecture5_ws/src/fra532_exam1/scripts/ArucoPoseChecker.py"
     "/home/tadtawan/fra532_lecture5_ws/src/fra532_exam1/scripts/wheel_odometry.py"
     "/home/tadtawan/fra532_lecture5_ws/src/fra532_exam1/scripts/imu_odometry.py"
+    "/home/tadtawan/fra532_lecture5_ws/src/fra532_exam1/scripts/PolePositionEstimator.py"
     )
 endif()
 

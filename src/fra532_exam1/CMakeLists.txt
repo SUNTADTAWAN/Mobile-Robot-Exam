@@ -34,6 +34,7 @@ install(PROGRAMS
   scripts/ArucoPoseChecker.py
   scripts/wheel_odometry.py
   scripts/imu_odometry.py
+  scripts/PolePositionEstimator.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

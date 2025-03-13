@@ -4,6 +4,7 @@ ekf_filter_node:
     two_d_mode: true  # ใช้เฉพาะ 2D
     publish_tf: true
     publish_acceleration: false
+    print_diagnostics: true  # เปิด Debug Mode
 
     # Frame Definitions
     map_frame: "map"               
@@ -18,6 +19,7 @@ ekf_filter_node:
                    true, true, false,   # vx, vy, vz
                    false, false, true,  # vroll, vpitch, vyaw
                    false, false, false] # ax, ay, az
+    odom0_differential: true  # ใช้ค่า relative odometry
 
     imu0: "/imu_data/data"
     imu0_config: [false, false, false,  
@@ -25,6 +27,8 @@ ekf_filter_node:
                   false, false, false,  
                   false, false, true,  
                   true, true, true]    
+    imu0_differential: true  
+    imu0_relative: true  # ให้ IMU ใช้ angular velocity ที่สัมพันธ์กัน
 
     pose0: "/aruco_marker_pose_base"
     pose0_config: [true, true, false, 
@@ -32,14 +36,15 @@ ekf_filter_node:
                    false, false, false,  
                    false, false, false,  
                    false, false, false]
+    pose0_differential: false  # ArUco ใช้ absolute pose
+    pose0_relative: false
 
     # Covariance (ปรับตามเซ็นเซอร์)
-    odom0_differential: false
-    imu0_differential: true
-    pose0_differential: false
-
-    # Process Noise
     process_noise_covariance: [0.05, 0.05, 0.01, 0.01, 0.01, 0.1]
+
+    # TF Parameters
+    transform_time_offset: 0.1  # ชดเชยเวลา Transform
+    reset_on_time_jump: true  # รีเซ็ตถ้าเวลาเปลี่ยนผิดปกติ
 
     # IMU Yaw Offset
     imu0_remove_gravitational_acceleration: true

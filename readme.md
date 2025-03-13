@@ -1,10 +1,14 @@
 # FRA532 Mobile Robot Exam1
 
+![Alt text](media/robot_with_pole.png)
+
+
+
+
 ## **Installation**
 Clone the repository and install the dependencies:
 ```bash
-git clone 
-cd 
+git clone https://github.com/SUNTADTAWAN/Mobile-Robot-Exam.git
 ```
 
 ## **Dependencies**
@@ -106,24 +110,29 @@ sudo apt install ros-humble-robot-localization ros-humble-cv-bridge ros-humble-i
 ## **How to Run**
 ### **1. `Start the Simulation (Gazebo)`**
 ```bash
-ros2 launch fra531_exam1 world.launch.py
+ros2 launch fra532_exam1 world.launch.py
 ```
 
 ### **2. ` Run Odometry Nodes`**
 ```bash
-ros2 run fra531_exam1 wheel_odometry
-ros2 run fra531_exam1 imu_odometry
+ros2 run fra532_exam1 wheel_odometry.py
+ros2 run fra532_exam1 imu_odometry.py
 ```
 
 ### **3. `Run ArUco Detection`**
 ```bash
-ros2 run fra531_exam1 aruco_detect
-ros2 run fra531_exam1 ArucoPoseTransformer
+ros2 run fra532_exam1 aruco_detect.py
+ros2 run fra532_exam1 ArucoPoseTransformer.py
 ```
 
 ### **3. `Run EKF Localization`**
 ```bash
-ros2 launch fra531_exam1 ekf_localization.launch.py
+ros2 launch fra532_exam1 ekf_localization.launch.py
 ```
 
-### Validation
+### Test
+
+### **1. `Aruco Tracking`**
+<video width="600" controls>
+  <source src="media/aruco_pos_video.mp4" type="video/mp4">
+</video>
